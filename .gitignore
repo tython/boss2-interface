@@ -1,0 +1,33 @@
+# 忽略python运行时环境
+/venv
+
+# 忽略截图目录
+/screenshot
+
+# 忽略log目录
+/log
+
+# 忽略报告目录
+!/report/
+/report/allure-report
+/report/pytest-report
+
+# 忽略allure临时文件
+/results/*.json
+/results/*.txt
+# 允许上传文件
+!/results/categories.json
+!/results/environment.properties
+
+# 忽略pytest缓存目录
+/.pytest_cache
+
+#忽略编译文件
+/.idea
+/.git
+/.svn
+*.pyc
+*.log
+
+#忽略压缩文件包
+*.zip

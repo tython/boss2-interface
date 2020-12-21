@@ -1,0 +1,8 @@
+test_login_user:
+  # 用户名,密码,期望结果,期望返回码,期望返回信息
+  # username, password, except_result, except_code, except_msg
+  #- ["admin@example.com", "zhu88jie", True, 0, "登录成功"]
+  email: "tyw3@yunify.com"
+  password: "QingCloud.123"
+#  email: "admin@alphacloud.com"
+#  password: "zhu88jie"
